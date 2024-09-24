@@ -1,0 +1,49 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-alert-alert {
+//   font-size: 1em;
+//   background: #ffffff;
+//   padding: 1em;
+// }
+
+.alert-container {
+  box-sizing: border-box;
+  padding: 16px;
+  border-left: 4px solid;
+
+  .alert-p {
+    margin: 0;
+    font-weight: 500;
+  }
+}
+
+.alert-default {
+  background-color: #ededed;
+  border-color: #a0a0a0;
+  color: #3f3f3f;
+}
+.alert-info {
+  background-color: #e5f6fd;
+  border-color: #1893d5;
+  color: #014361;
+}
+.alert-success {
+  background-color: #edf7ed;
+  border-color: #418944;
+  color: #1e4620;
+}
+.alert-danger {
+  background-color: #fdeded;
+  border-color: #d74242;
+  color: #5f2120;
+}
+.alert-warning {
+  background-color: #fff4e5;
+  border-color: #ef7918;
+  color: #683e03;
+}

@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-alert-alert {
+  margin: 0;
+  padding: 0;
+}
+
+.input-container {
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  &:nth-child(2) {
+    margin-bottom: 4px;
+  }
+
+  label {
+    font-size: medium;
+    color: black !important;
+  }
+
+  input,
+  select {
+    box-sizing: border-box;
+    background-color: transparent;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin-top: 4px;
+    border: 1px solid gray;
+    outline: none;
+  }
+}
